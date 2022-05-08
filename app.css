@@ -1,0 +1,23 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-giphy {
+    display: inline-block; 
+}
+
+#gallery-giphy {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0; 
+}
+
+img {
+    display: inline-block; 
+    margin: 5px;
+}
